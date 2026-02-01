@@ -39,7 +39,6 @@ const els = {
 };
 
 async function fetchProducts(){
-  // sample products; in real site replace with API
   const resp = await fetch('products.json');
   const data = await resp.json();
   state.products = data;
@@ -70,7 +69,6 @@ function applyFilters(){
   if(f.sort === 'price-asc') list.sort((a,b)=>a.price-b.price);
   else if(f.sort === 'price-desc') list.sort((a,b)=>b.price-a.price);
   else if(f.sort === 'new') list.sort((a,b)=>new Date(b.added) - new Date(a.added));
-  // featured default: keep original order
 
   state.filtered = list;
   renderProducts();
@@ -125,7 +123,7 @@ function openModal(id){
     </div>
   `;
   els.modal.classList.remove('hidden');
-  // attach modal buttons
+  // attach modal buttons (quien lo lea es gey)
   document.getElementById('modalAdd').onclick = ()=>{ addToCart(id); closeModal(); };
   document.getElementById('modalCloseBtn').onclick = closeModal;
 }
@@ -168,7 +166,6 @@ function renderCart(){
   const total = state.cart.reduce((s,i)=>s + i.price * i.qty, 0);
   els.cartTotal.textContent = formatMoney(total);
 
-  // attach listeners
   els.cartItems.querySelectorAll('[data-action]').forEach(btn=>{
     btn.onclick = (e)=>{
       const id = btn.getAttribute('data-id');
@@ -269,7 +266,6 @@ function wireUI(){
     saveCart();
   });
 
-  // close modal on backdrop click
   els.modal.addEventListener('click', (e)=>{ if(e.target === els.modal) closeModal(); });
 
   renderCart();
