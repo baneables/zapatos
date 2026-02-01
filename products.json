@@ -1,0 +1,68 @@
+[
+  {
+    "id": "s1",
+    "title": "Zapatilla Urban Motion",
+    "brand": "PasoFirme",
+    "category": "Deportivos",
+    "description": "Ligera y resistente. Suela con amortiguación para uso diario y entrenamientos.",
+    "price": 79.99,
+    "sizes": [38,39,40,41,42,43],
+    "image": "https://images.unsplash.com/photo-1519744792095-2f2205e87b6f?q=80&w=1200&auto=format&fit=crop",
+    "added": "2026-01-08"
+  },
+  {
+    "id": "s2",
+    "title": "Oxford Clásico",
+    "brand": "Atelier",
+    "category": "Formales",
+    "description": "Corte en piel, acabado pulido. Ideal para eventos y oficina.",
+    "price": 129.50,
+    "sizes": [39,40,41,42,43,44],
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1200&auto=format&fit=crop",
+    "added": "2025-12-12"
+  },
+  {
+    "id": "s3",
+    "title": "Sandalia Verano Air",
+    "brand": "Sol&Mar",
+    "category": "Casuales",
+    "description": "Cómoda, transpirables y con tiras ajustables.",
+    "price": 39.00,
+    "sizes": [36,37,38,39,40,41],
+    "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1200&auto=format&fit=crop",
+    "added": "2026-01-15"
+  },
+  {
+    "id": "s4",
+    "title": "Botín Trail Pro",
+    "brand": "Mountainix",
+    "category": "Outdoor",
+    "description": "Agarre avanzado y protección para terrenos difíciles.",
+    "price": 149.00,
+    "sizes": [40,41,42,43,44,45],
+    "image": "https://images.unsplash.com/photo-1526406915892-5b9bcedf6f2d?q=80&w=1200&auto=format&fit=crop",
+    "added": "2026-01-05"
+  },
+  {
+    "id": "s5",
+    "title": "Slip-On Minimal",
+    "brand": "PasoFirme",
+    "category": "Casuales",
+    "description": "Diseño limpio y fácil de poner. Suela flexible para todo el día.",
+    "price": 54.99,
+    "sizes": [37,38,39,40,41,42],
+    "image": "https://images.unsplash.com/photo-1540574163026-643ea20ade25?q=80&w=1200&auto=format&fit=crop",
+    "added": "2025-11-20"
+  },
+  {
+    "id": "s6",
+    "title": "Sneaker Retro Classic",
+    "brand": "Heritage",
+    "category": "Deportivos",
+    "description": "Estética vintage con comodidad moderna.",
+    "price": 89.00,
+    "sizes": [38,39,40,41,42,43,44],
+    "image": "https://images.unsplash.com/photo-1479839672679-a46483c2db3d?q=80&w=1200&auto=format&fit=crop",
+    "added": "2026-01-20"
+  }
+]

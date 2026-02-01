@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tienda de Calzado • PasoFirme</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Tienda profesional de zapatos: urbanos, deportivos y formales. Compra online con carrito y pago seguro." />
+  <script type="importmap">
+  {
+    "imports": {
+      "lit/": "https://esm.sh/lit@2.7.5/",
+      "dayjs": "https://esm.sh/dayjs@1.11.9"
+    }
+  }
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <img src="https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?q=80&w=200&auto=format&fit=crop" alt="logo" />
+      <div>
+        <h1>PasoFirme</h1>
+        <p>Tienda de Calzado</p>
+      </div>
+    </div>
+    <div class="top-actions">
+      <input id="search" placeholder="Buscar modelo, color, talla..." aria-label="Buscar productos" />
+      <button id="cartBtn" aria-label="Abrir carrito">🛒 <span id="cartCount">0</span></button>
+    </div>
+  </header>
+
+  <main id="app">
+    <aside class="filters" aria-label="Filtros">
+      <div class="filter-block">
+        <h3>Categoría</h3>
+        <select id="categoryFilter">
+          <option value="">Todas</option>
+        </select>
+      </div>
+
+      <div class="filter-block">
+        <h3>Precio</h3>
+        <div class="range-row">
+          <input id="minPrice" type="number" placeholder="Min" min="0" />
+          <input id="maxPrice" type="number" placeholder="Max" min="0" />
+        </div>
+      </div>
+
+      <div class="filter-block">
+        <h3>Talla</h3>
+        <div id="sizes" class="sizes"></div>
+      </div>
+
+      <div class="filter-block">
+        <h3>Ordenar</h3>
+        <select id="sortBy">
+          <option value="featured">Recomendado</option>
+          <option value="price-asc">Precio: menor a mayor</option>
+          <option value="price-desc">Precio: mayor a menor</option>
+          <option value="new">Nuevos</option>
+        </select>
+      </div>
+
+      <button id="clearFilters" class="ghost">Limpiar filtros</button>
+    </aside>
+
+    <section class="catalog">
+      <div class="catalog-header">
+        <h2>Productos</h2>
+        <div class="catalog-meta"><span id="resultsCount">0</span> resultados</div>
+      </div>
+      <div id="productsGrid" class="grid" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <!-- Product modal -->
+  <div id="modal" class="modal hidden" role="dialog" aria-modal="true">
+    <div class="modal-content">
+      <button id="modalClose" class="modal-close" aria-label="Cerrar">✕</button>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- Cart drawer -->
+  <aside id="cartDrawer" class="cart-drawer hidden" aria-label="Carrito">
+    <div class="cart-head">
+      <h3>Tu carrito</h3>
+      <button id="closeCart" aria-label="Cerrar carrito">✕</button>
+    </div>
+    <div id="cartItems" class="cart-items"></div>
+    <div class="cart-footer">
+      <div class="totals">
+        <div>Subtotal</div>
+        <div id="cartTotal">€0.00</div>
+      </div>
+      <button id="checkoutBtn" class="primary">Pagar ahora</button>
+      <button id="clearCart" class="ghost">Vaciar carrito</button>
+    </div>
+  </aside>
+
+  <footer class="site-footer">
+    <div>
+      <strong>PasoFirme</strong> — Envíos en 24-72h. Atención: contacto@pasofirme.example
+    </div>
+    <div>© <span id="year"></span></div>
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
