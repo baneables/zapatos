@@ -7,7 +7,7 @@
     "description": "Unos zapatos formales, serás la envidia de tu trabajo.",
     "price": 99.99,
     "sizes": [42,42,43,44,45],
-    "image": "https://images.unsplash.com/photo-1519744792095-2f2205e87b6f?q=80&w=1200&auto=format&fit=crop",
+    "image": "https://imgur.com/a/LVI7Xc8",
     "added": "2026-01-08"
   },
   {
@@ -18,7 +18,7 @@
     "description": "Ideal para salir una tarde con tus colegas o llevarlas por casa.",
     "price": 69.96,
     "sizes": [36,37,38,39,40],
-    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1200&auto=format&fit=crop",
+    "image": "https://imgur.com/a/vupwBMF",
     "added": "2025-12-12"
   },
   {
@@ -29,7 +29,7 @@
     "description": "Es un zapato especializado en el campo y para domar caballos.",
     "price": 49.49,
     "sizes": [36,37,38,39,40,41],
-    "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1200&auto=format&fit=crop",
+    "image": "https://imgur.com/a/Z3gsOVi",
     "added": "2026-01-15"
   },
   {
@@ -40,7 +40,7 @@
     "description": "Son peces (falsos) que sirven como chanclas para el verano.",
     "price": 1.99,
     "sizes": [40,41,42,43],
-    "image": "https://images.unsplash.com/photo-1526406915892-5b9bcedf6f2d?q=80&w=1200&auto=format&fit=crop",
+    "image": "https://imgur.com/a/SplGj1U",
     "added": "2026-01-05"
   },
   {
@@ -51,7 +51,7 @@
     "description": "Ideal para aparentar verano mientras hace mucho frío.",
     "price": 29.99,
     "sizes": [38,93,40,41],
-    "image": "https://images.unsplash.com/photo-1540574163026-643ea20ade25?q=80&w=1200&auto=format&fit=crop",
+    "image": "https://imgur.com/a/XuLlDgN",
     "added": "2025-11-20"
   },
   {
@@ -62,7 +62,7 @@
     "description": "Son langostas (falsas) con una chancla y te sale Las LangotaChanclas.",
     "price": 19.99,
     "sizes": [36,37,38,39],
-    "image": "https://images.unsplash.com/photo-1479839672679-a46483c2db3d?q=80&w=1200&auto=format&fit=crop",
+    "image": "https://imgur.com/a/W8MmAcH",
     "added": "2026-01-20"
   },  
   {
@@ -73,7 +73,7 @@
     "description": "Vas a correr más rápido que cualquiera en el mundo (No es asegurado).",
     "price": 999.99,
     "sizes": [37,38,39,40,41],
-    "image": "https://images.unsplash.com/photo-1479839672679-a46483c2db3d?q=80&w=1200&auto=format&fit=crop",
+    "image": "https://imgur.com/a/Ei3FbQX",
     "added": "2026-01-20"
   },  
   {
@@ -84,7 +84,7 @@
     "description": "Son Pous pero con un zapato, Lo que pasa que el pou se a vuelto mujer xd.",
     "price": 24.95,
     "sizes": [37,38,39,40,41],
-    "image": "https://images.unsplash.com/photo-1479839672679-a46483c2db3d?q=80&w=1200&auto=format&fit=crop",
+    "image": "https://imgur.com/a/wXD6K1i",
     "added": "2026-01-20"
   },  {
     "id": "s9",
@@ -94,7 +94,7 @@
     "description": "Son una mierda de chanclas (las chanclas son buenas pero con forma de mierda, no os confundais ☝️).",
     "price": 34.95,
     "sizes": [38,39,40,41,42,43,44],
-    "image": "https://images.unsplash.com/photo-1479839672679-a46483c2db3d?q=80&w=1200&auto=format&fit=crop",
+    "image": "https://imgur.com/a/oniOlov",
     "added": "2026-01-20"
   },  {
     "id": "s10",
@@ -104,7 +104,7 @@
     "description": "Estos zapatos son casi gratis, que asco de zapatos, heee?.",
     "price": 0.01,
     "sizes": [41,42,43,44,45],
-    "image": "https://images.unsplash.com/photo-1479839672679-a46483c2db3d?q=80&w=1200&auto=format&fit=crop",
+    "image": "https://imgur.com/a/kSgorEv",
     "added": "2026-01-20"
   },
   {
@@ -115,7 +115,7 @@
     "description": "Puedes saltar hasta la luna (No es posible saltar hasta la luna pero lo digo por si cuela).",
     "price": 89.98,
     "sizes": [39,40,41,42,43,44],
-    "image": "https://images.unsplash.com/photo-1479839672679-a46483c2db3d?q=80&w=1200&auto=format&fit=crop",
+    "image": "https://imgur.com/a/aiXyYXS",
     "added": "2026-01-20"
   },
   {
@@ -126,7 +126,7 @@
     "description": "Son zapatos de Hulk pero sin ser verdes (No hay tinta verde 😞).",
     "price": 59.59,
     "sizes": [37,38,39,40,41],
-    "image": "https://images.unsplash.com/photo-1479839672679-a46483c2db3d?q=80&w=1200&auto=format&fit=crop",
+    "image": "https://imgur.com/a/r19TQeO",
     "added": "2026-01-20"
   }
 ]
